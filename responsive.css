@@ -1,0 +1,94 @@
+/* Default Layout: 1260px.  */
+
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rotk-left-image img{
+         margin-top:20px;
+    }
+    
+    .rotk-dashedline{
+        left:10%;
+    }
+
+    
+
+    .navbar-default .navbar-nav > li > a {
+         font-size: 13px;
+         padding-left: 13px;
+    }
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .rotk-send-mail h4 {
+         font-size: 14px;
+         margin-bottom: 63px;
+    }
+
+    .rotk-send-mail h4 span {
+         margin-left: 73px;
+    }
+
+    .rotk-dashedline img{
+         height: 230px;
+         width: 237px;
+    }
+    .rotk-dashedline{
+         left:25%;
+    }
+
+    .rotk-form-custom {
+        position:relative;
+        margin-left: 34%;
+        top:10%;
+    }
+    
+    .form-group .col-md-12{
+        text-align:left;
+        padding:0;
+    }
+
+    .rotk-left-image img{
+         margin-top:4px;
+    } 
+
+    .rotk-btn-lg {
+         font-size: 8px;
+         margin-right: 44px;
+         margin-top: 5px;
+         width: 53%;
+    }
+
+    .btn-lg  span{
+         font-size: 12px;
+    }
+}
+@media only screen and (max-width: 667px){
+    .rotk-dashedline{
+         left:20%;
+    }
+    
+}
+@media only screen and (max-width: 567px){
+    .rotk-dashedline{
+         left:14%;
+    }
+}
+@media only screen and (max-width: 467px){
+    .rotk-dashedline{
+         left:9%;
+    }
+}
+@media only screen and (max-width: 367px){
+    .rotk-dashedline{
+         left:13%;
+    }
+}
